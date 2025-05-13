@@ -23,9 +23,9 @@ pip install mlflow databricks-sdk
 ## Steps
 
 ### Setup (Local) MLFLow Tracking Server
-
-1. Run `mlflow server --host 127.0.0.1 --port 6001` to launch tracking server on port 6001. Show the logs in the terminal to TA for deliverable 1.
-2. Visit [http://127.0.0.1:6001](http://127.0.0.1:6001) to verify your MLFlow Tracking Server is running. Show the webpage in browser to TA for deliverable 1.
+* curl ifconfig.me to get address
+1. Run `mlflow server --host 0.0.0.0 --port 6001` to launch tracking server on port 6001. Show the logs in the terminal to TA for deliverable 1.
+2. Visit (YOURADDRESS:6001) [http://127.0.0.1:6001](http://127.0.0.1:6001) to verify your MLFlow Tracking Server is running. Show the webpage in browser to TA for deliverable 1.
 
 #### Complete the Machine Learning Pipeline
 
